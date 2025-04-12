@@ -33,3 +33,7 @@ You dont need to do this but you can and it will show you exactly what your file
 To build run the script that says it will build and run the program
 
 To delete the build directory and working directory of the build run the batch file that says it will do so (THIS WILL ALSO DELETE YOUR DOWNLOADED PICS AND TRACKING IF THEY ARE STORED IN THERE)
+
+### License
+
+This project is licensed under the MIT License
