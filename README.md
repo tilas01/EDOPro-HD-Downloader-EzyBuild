@@ -34,6 +34,9 @@ To build run the script that says it will build and run the program
 
 To delete the build directory and working directory of the build run the batch file that says it will do so (THIS WILL ALSO DELETE YOUR DOWNLOADED PICS AND TRACKING IF THEY ARE STORED IN THERE)
 
+### To-Do
+Add a part that also goes into the fields folder if they downloaded hd fields also and does the same thing and places it inside pics_out as just fields since its already in the out directory.
+
 ### License
 
 This project is licensed under the MIT License
