@@ -5,6 +5,8 @@ Check this by typing python -v in command prompt to get the version and check yo
 
 All automated batch scripts to build the program and clean up the build after use as well as exif program that will remove all exif data or extra data from the photos.
 
+These can all be found the batch scripts, exif removal script and possibly more in the "custom tools by tilas01" directory.
+
 $ = Command to Run in Command Prompt (cmd.exe)
 
 Install pyinstaller with: $ pip install pyinstaller

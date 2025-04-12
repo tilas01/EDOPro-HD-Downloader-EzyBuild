@@ -12,6 +12,8 @@ Always think twice about whether that GitHub release was actually built with the
 
 ### How to Use
 
+Please checkout the folder "custom tools by tilas01" as its where most of my custom additions to this project with this fork can be used and are stored.
+
 I didn't entirely trust the project and it seems weird that they offer a Windows release with build instructions for other OS's and I cant find anything malicicious in their code but their executable is flagged for actions mine isnt that are malicious in sandboxes so i believe there is possibly malware inside that release alledgedly of course. I think the safest way to use this tool on windows with python is to build it yourself and cleanup easily and remove exif/extra data from the pics (this script is provided by me with the help of chatgpt) to reduce file size without ever reducing image size, it is a completely lossless process and simply makes the images file content only its visual pixels.
 
 This program only supports windows 10 and 11 mainly.
