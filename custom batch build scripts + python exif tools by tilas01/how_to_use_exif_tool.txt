@@ -1,0 +1,5 @@
+move the exif python tool into bin or wherever your pics directory is.
+do not worry it will create a backup of your download before it begins clearing exif data incase of an accident to avoid data loss.
+
+you will then see with a progress bar how your exif and other picture data removal is going and if any was removed.
+all data is printed and logged for viewing after.

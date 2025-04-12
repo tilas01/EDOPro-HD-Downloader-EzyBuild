@@ -1,0 +1,31 @@
+Install the latest official version of python3.
+When installing make sure to tick the two boxes "Install as Admin" and "Add to Path" (IMPORTANT) then at the end click remove max path limit and press Yes.
+You can now complete the installation. Reopen any Command Prompt Windows you had open as Python and pip should now be added to the path.
+Check this by typing python -v in command prompt to get the version and check you can call on python from anywhere on your computer.
+
+All automated batch scripts to build the program and clean up the build after use as well as exif program that will remove all exif data or extra data from the photos.
+
+$ = Command to Run in Command Prompt (cmd.exe)
+
+Install pyinstaller with: $ pip install pyinstaller
+
+then install all the requirements here that ive removed the required versions from since they work without it on the latest version
+
+Install requirements: $ pip install -r requirements.txt
+
+Then build the app with:
+$ pyinstaller main.py -y --distpath "bin" -F --specpath "bin" -n "EDOPro-HD-Downloader" -c --clean --workpath "workpath_pyinstaller"
+
+or just run windows_quick_build_and_run.bat which will run this command and then after its complete it will clear
+the screen and run the app from your build all automatically, feel free to review the code on this file there isn't much
+
+and go into bin and use that build
+
+and done you have built it yourself!
+
+this is the cleanest way to do it
+
+run the exif data removal tool in the same directory as the "pics" folder and back it up first to remove all exif data and ensure no data has been corrupted in the process also check how much data is lost before and after file in the pics directory to remove any exif data possibly stored in the downloaded images leaving you with clean, labeled hd images for exif
+you will need to install Pillow by typing: $ pip install Pillow
+
+I recommend you backup your photos before proccessing them to avoid any lost data!

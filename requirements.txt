@@ -1,0 +1,13 @@
+altgraph
+certifi
+charset-normalizer
+idna
+packaging
+pefile
+pyinstaller
+pyinstaller-hooks-contrib
+pywin32-ctypes
+requests
+setuptools
+urllib3
+pillow
