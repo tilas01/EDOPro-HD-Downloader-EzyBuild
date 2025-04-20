@@ -27,9 +27,15 @@ and other extra unneccassary data that is stored in them that could be malicious
 This basically "sanitises" the images to just be the raw image data and the exact same file name and replaces it so it contains no extra data.
 
 ### Important Note about Exif Tool - Please Read
-Although at this time I would recommmend NOT using the exif feature as it recompresses all card images into a 10+ gb file and does not do the field images or look for them so it needs some work first ive found. From reviewing the code it simply downloads all the card pictures and names and sorts them from a yugioh card database website.
+The Exif Tool had an Issue where when recompressing all images because it did lossless recompression with PIL/Pillow it generated a 10+ gb folder out of a 2gb foldler and did not have recursive functionality to find other directories and export them like the field pictures.
 
-You dont need to do this but you can and it will show you exactly what your file size was before and after and what files had exif data and i believe what that exif data was it should be printed on screen or found in the logs that will be everything you saw on screen and more data about the proccess after. You must be patient for both these tools as they are using python a quite unoptimised interpreter to download and remove all extra data from these images.
+Please Read the Below Upate for More Info.
+
+
+#### Exif Tool Update - Mon 21 April
+This Has Been Fixed but the Updated Script (Generated and Edited by tilas01 on GitHub)
+#### !!! The Script is Currently Untested by Me so I can not guarentee this updates functionality. !!!
+##### I am doing this so at least if it does work its better then a useless script that over quadtrouples your folder size and didn't have recursive image searching. I hope to test it soon.
 
 
 
