@@ -1,4 +1,3 @@
-
 #this script was made with the help of chatgpt and edited by tilas01 on github
 # ! this script is untested !
 #!/usr/bin/env python3
