@@ -31,11 +31,10 @@ The Exif Tool had an Issue where when recompressing all images because it did lo
 
 Please Read the Below Upate for More Info.
 
-
 #### Exif Tool Update - Mon 21 April
 This Has Been Fixed but the Updated Script (Generated and Edited by tilas01 on GitHub)
 #### !!! The Script is Currently Untested by Me so I can not guarentee this updates functionality. !!!
-##### I am doing this so at least if it does work its better then a useless script that over quadtrouples your folder size and didn't have recursive image searching. I hope to test it soon.
+I am doing this so at least if it does work its better then a useless script that over quadtrouples your folder size and didn't have recursive image searching. I hope to test it soon.
 
 
 
