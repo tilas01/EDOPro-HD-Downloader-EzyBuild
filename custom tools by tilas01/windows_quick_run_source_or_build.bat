@@ -1,6 +1,9 @@
 @echo off
 setlocal EnableDelayedExpansion
 
+
+echo this is broken i will fix it sorry.
+
 rem Function to ask the first question
 :askCompileOrRunSource
 cls
