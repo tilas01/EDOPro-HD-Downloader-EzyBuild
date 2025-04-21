@@ -10,16 +10,16 @@ echo   2) Run from Python Source Code (faster)
 echo ========================================
 set /p userChoice1=Enter 1 or 2: 
 
-if "%userChoice1%"=="1" (
+if "%userChoice2%"=="1" (
     echo You chose to compile.
-    goto CompileandAskRun
-) else if "%userChoice1%"=="2" (
+    goto done
+) else if "%userChoice2%"=="2" (
     echo You chose to run from source (faster).
     goto RunFromSource
 ) else (
     echo Invalid choice. Please enter 1 or 2.
     pause >nul
-    goto askCompileOrRunSource
+    goto askRunCompiledOrSource
 )
 
 :CompileandAskRun
@@ -50,7 +50,6 @@ if "%userChoice2%"=="1" (
     goto RunCompiledBinary
 ) else if "%userChoice2%"=="2" (
     echo You chose to continue from source (faster).
-    cls
     goto RunFromSource
 ) else (
     echo Invalid choice. Please enter 1 or 2.
