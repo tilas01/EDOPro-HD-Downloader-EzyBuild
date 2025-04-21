@@ -1,6 +1,4 @@
 #this script was made with the help of chatgpt and edited by tilas01 on github
-#this script is untested by me - as all scripts and the license states: use at your own risk!
-#no issues have been submitted related to the above - please submit one if found
 #!/usr/bin/env python3
 
 import os
